@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="line-container">
+        <!-- Lines will be added here dynamically -->
+    </div>
+    <div class="dashboard">
+        <button id="bubbleSortButton" onclick="bubblesort_button()">Bubble Sort</button>
+        <button id="quicksortButton"onclick="quicksort_button()">Quick Sort</button>
+        <button id="mergeSortButton" onclick="mergesort_button()">Merge Sort</button>
+        <button onclick="reset()">Reset</button>
+        <div class="slider-container">
+            <input type="range" id="columnSlider" min="1" max="200" value="100" step="1" oninput="adjustColumns()">
+            <span id="sliderValue">100</span>
+        </div>
+        <div id="sorting-time" class="timer">Sorting time: 0.00 seconds</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

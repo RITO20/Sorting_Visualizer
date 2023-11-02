@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    background-color: black; /* Change the background color of the entire website to black */
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: left;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.slider-container{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    padding-right: 15px;
+}
+
+.line-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Align to the center horizontally */
+    align-items: flex-end;   /* Align to the bottom vertically */
+    height: 830px;          /* Set a fixed height for the container */
+    padding-bottom: 0px;
+}
+
+.line {
+    width: 5px;
+    margin: 2px;
+    background-color: #ffffff;
+    transition: height 0.2s;
+}
+
+.line-swapped-big {
+    background-color: #e74c3c; /* New color for swapped columns */
+    /* transition: background-color 0.3s; */
+}
+.line-swapped-small {
+    background-color: #ffc400; /* New color for swapped columns */
+    /* transition: background-color 0.3s; */
+}
+
+.sort-complete {
+    background-color: #4adb26; /* New color for swapped columns */
+    transition: background-color 0.3s;
+}
+
+.pivot {
+    background-color: blue;
+}
+
+button {
+    margin: 10px;
+}
+
+.timer{
+    color: white;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-block-start: 10px;
+    margin: 0px;
+}
